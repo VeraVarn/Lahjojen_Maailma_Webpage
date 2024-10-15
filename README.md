@@ -88,4 +88,5 @@ This theme is licensed under the GNU General Public License v2 or later. You can
 ## Contact
 !!!
 - Email: [email@example.com]
-- Website: [website.com]!!!
+- Website: [website.com]
+!!!
