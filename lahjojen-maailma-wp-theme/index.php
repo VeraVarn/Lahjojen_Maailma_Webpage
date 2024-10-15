@@ -14,12 +14,23 @@
 get_header(); ?>
 
             <main>
-                <!-- Hero -->
-                <section class="hero">
-                    <div class="hero__container container">
-                        <div class="hero__content">
-                            <img class="hero__image" alt="" src="./">
-                        </div>
+                <!-- Blog -->
+                <section class="blog">
+                    <div class="blog__container container">
+                        <?php
+                            if( have_posts() ):
+                                while( have_posts() ): the_post();
+                                    ?>
+                                        <article>
+                                            <h2><?php the_title(); ?></h2>
+                                            <div><?php the_content(); ?></div>
+                                        </article>
+                                    <?php
+                                endwhile;
+                            else:
+                        ?>
+                            <p>No blog posts to display.</p>
+                        <?php endif; ?>
                     </div>
                 </section>
             </main>

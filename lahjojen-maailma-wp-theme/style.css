@@ -10,3 +10,7 @@ License: GNU General Public License v2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html  
 Tags: e-commerce, shop, Woocommerce, responsive, grid-layout, minimal
 */
+
+.nav-menu {
+    display: flex;
+}
