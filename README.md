@@ -1,13 +1,21 @@
 # Lahjojen Maailma Theme
 
 **Theme Name:** Lahjojen Maailma Theme
+
 **Theme URI:** https://github.com/VeraVarn/lahjojen-maailma-wp-theme
+
 **Author**: Vera Värn
+
 **Author URI:** https://github.com/VeraVarn
-**Version:** 1.0.0 
-**License:** GNU General Public License v2 
-**License URI:** https://www.gnu.org/licenses/gpl-2.0.html  
+
+**Version:** 1.0.0
+
+**License:** GNU General Public License v2
+
+**License URI:** https://www.gnu.org/licenses/gpl-2.0.html
+
 **Tags:** e-commerce, shop, Woocommerce, responsive, grid-layout, minimal
+
 **Text Domain:** lahjojen-maailma-wp-theme
 
 ## Description
