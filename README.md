@@ -2,7 +2,7 @@
 
 **Theme Name:** Lahjojen Maailma Theme
 **Theme URI:** https://github.com/VeraVarn/lahjojen-maailma-wp-theme
-**Author:** Vera Värn
+**Author**: Vera Värn
 **Author URI:** https://github.com/VeraVarn
 **Version:** 1.0.0 
 **License:** GNU General Public License v2 
@@ -17,9 +17,6 @@ Lahjojen Maailma Theme is a minimal, scandinavian style, responsive WordPress th
 ## Features
 
 - Fully responsive design
-- Widget-ready areas
-- Multiple page templates
-- Gutenberg block support
 - WooCommerce compatibility
 
 ## Installation
@@ -35,12 +32,11 @@ Lahjojen Maailma Theme is a minimal, scandinavian style, responsive WordPress th
 1. Extract the theme `.zip` file.
 2. Upload the extracted folder to the `/wp-content/themes/` directory on your server.
 3. Log in to your WordPress admin dashboard and go to `Appearance > Themes`.
-4. Find your theme and click `Activate`.
+4. Find the theme and click `Activate`.
 
 ## Theme Setup
 
 ### Required Plugins
-List any plugins required for the theme to work optimally. For example:
 - WooCommerce (https://wordpress.org/plugins/woocommerce/)
 
 ### Recommended Plugins
@@ -83,5 +79,5 @@ This theme is licensed under the GNU General Public License v2 or later. You can
 
 ## Contact
 !!!
-- Email: [your-email@example.com](mailto:your-email@example.com)
-- Website: [your-website.com](https://your-website.com)!!!
+- Email: [email@example.com]
+- Website: [website.com]!!!
