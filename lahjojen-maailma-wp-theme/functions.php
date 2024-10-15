@@ -23,7 +23,40 @@
       )
     );
 
- }
+    add_theme_support( 'woocommerce', array(
+      'thumbnail_image_width'   =>  255,
+      'single_image_width'      =>  255,
+      'product_grid'            =>  array(
+        'default_rows'          =>  25,
+        'min-rows'              =>  5,
+        'max-rows'              =>  50,
+        'default_columns'       =>  4,
+        'min-columns'           =>  1,
+        'max-columns'           =>  4,
+      )
+    ) );
+    add_theme_support( 'wc-product-gallery-zoom' );
+    add_theme_support( 'wc-product-gallery-lightbox' );
+    add_theme_support( 'wc-product-gallery-slider' );
+
+    if ( ! isset( $content_width ) ) {
+      $content_width = 600;
+    }
+  }
+
+  add_action( 'after_setup_theme', 'fancy_lab_config', 0 );
+
+  add_action( 'woocommerce_before_main_content', 'lahjojen_maailma_wp_theme_open_container', 5 );
+  function lahjojen_maailma_wp_theme_open_container(){
+    echo '<div class="container shop-content">';
+  }
+
+  add_action( 'woocommerce_after_main_content', 'lahjojen_maailma_wp_theme_close_container', 5 );
+  function lahjojen_maailma_wp_theme_close_container(){
+    echo '</div>';
+  }
+
+  add_action( 'woocommerce_after_shop_loop_item_title' )
 
  add_action( 'after_setup_theme', 'lahjojen_maailma_wp_theme_config', 0 );
 
