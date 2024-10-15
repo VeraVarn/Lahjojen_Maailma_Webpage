@@ -12,7 +12,7 @@
 
 ## Description
 
-This is a minimal, scandinavian style, responsive WordPress theme designed to be used on small e-commerce site. This theme is made part of the group project on the ICT Camp.
+Lahjojen Maailma Theme is a minimal, scandinavian style, responsive WordPress theme designed to be used on small e-commerce site. This theme is made part of the group project on the ICT Camp.
 
 ## Features
 
